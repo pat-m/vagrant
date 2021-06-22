@@ -1,8 +1,7 @@
 # Setup/install tasks.
 - include_tasks: Jenkins.yml
 
-# Configure Jenkins init settings.
-- include_tasks: settings.yml
+
 
 
 
@@ -70,3 +69,6 @@
 
 # Configure Jenkins plugins.
 - include_tasks: plugins.yml
+
+# Configure Jenkins init settings.
+- include_tasks: settings.yml

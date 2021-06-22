@@ -8,4 +8,4 @@ requirements: python-apt
 jenkins_plugin:
 jenkins_host: http://localhost:8080
 jenkins_jobs:
-  - "my-first-job"
+  - "devops"
